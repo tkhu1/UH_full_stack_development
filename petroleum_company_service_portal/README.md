@@ -3,7 +3,7 @@
 **Group Members:** Adithya Nair, Shatavari Shinde, Tyler Hu. 
 
 
-** PROJECT DOCUMENTATION **
+**PROJECT DOCUMENTATION**
 
 A partner of your petroleum company has requested to build a software application that will predict the rate of the fuel cost for clients based on the following criteria:
  - Client Location (in-state or out-of-state)
@@ -18,7 +18,7 @@ Software must include following components:
  - Fuel Quote Form with Pricing module (Once user enters all required information pricing module calculates the rate provides total cost)
  - Fuel Quote History
 
- - We decided that the Agile development method with releases of small increments of software is the best choice for developing this system. This approach allows quick deliveries for the features that are most necessary and allows more room for client feedback. The client requirements and priorities can change at any time therefore with agile development, it is flexible and easily adapts to change. 
+We decided that the Agile development method with releases of small increments of software is the best choice for developing this system. This approach allows quick deliveries for the features that are most necessary and allows more room for client feedback. The client requirements and priorities can change at any time therefore with agile development, it is flexible and easily adapts to change. 
 
  - The group concluded that the presentation layer would consist of a simple welcome page and login area, then progress to a GUI consisting of a simple menu with options after successful login. The business layer would consist of two components, one to handle the fuel quotes and one to handle the client information. The service layer would consist of two components, one to handle backend modeling of the fuel quotes and one to handle client services. The data access layer will consist of the DBMS to handle communication with the database, and the data layer contains the data tables and dependencies.
 
@@ -26,7 +26,7 @@ Software must include following components:
 
  - Project members are all using Microsoft Visual Studio Code as the IDE as it allows us to easily download extensions to help code and test our functionality.
 
- - For our baack end, we are using XAMPP as our PHP development environment. This give us the Apache server functionality to host our project on localhost and visualize project development in real-time. All the back end files are written in php and located in the program_code/back_end folder in our git repository.
+ - For our back end, we are using XAMPP as our PHP development environment. This give us the Apache server functionality to host our project on localhost and visualize project development in real-time. All the back end files are written in php and located in the program_code/back_end folder in our git repository.
 
  - For code coverage reports, we are using the PHPunit / Xdebug test suites installed via the Composer dependency manager. These coverage tools allow us to write unit tests for our back end and then automatically generate the coverage results as html reports. XML is used to manage the PHPunit settings in the phpunit.xml file.
 
@@ -40,7 +40,7 @@ Command console line to generate HTML code coverage reports for the back end is:
 Detailed reports can be found in our git repository in the code_coverage_reports folder. 
 
 
-** FILE STRUCTURE **
+**FILE STRUCTURE**
 
 1. **Code_coverage_reports** folder contains HTML reports of the backend code coverage.
 
