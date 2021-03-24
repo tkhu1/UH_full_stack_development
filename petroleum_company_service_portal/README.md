@@ -20,11 +20,11 @@ Software must include following components:
 
 We decided that the Agile development method with releases of small increments of software is the best choice for developing this system. This approach allows quick deliveries for the features that are most necessary and allows more room for client feedback. The client requirements and priorities can change at any time therefore with agile development, it is flexible and easily adapts to change. 
 
- - The group concluded that the presentation layer would consist of a simple welcome page and login area, then progress to a GUI consisting of a simple menu with options after successful login. The business layer would consist of two components, one to handle the fuel quotes and one to handle the client information. The service layer would consist of two components, one to handle backend modeling of the fuel quotes and one to handle client services. The data access layer will consist of the DBMS to handle communication with the database, and the data layer contains the data tables and dependencies.
-
- - Our front end is mostly coded in HTML and PHP with CSS to format the pages as those languages are what our group members are most familiar with. 
+The group concluded that the presentation layer would consist of a simple welcome page and login area, then progress to a GUI consisting of a simple menu with options after successful login. The business layer would consist of two components, one to handle the fuel quotes and one to handle the client information. The service layer would consist of two components, one to handle backend modeling of the fuel quotes and one to handle client services. The data access layer will consist of the DBMS to handle communication with the database, and the data layer contains the data tables and dependencies.
 
  - Project members are all using Microsoft Visual Studio Code as the IDE as it allows us to easily download extensions to help code and test our functionality.
+
+ - Our front end is mostly coded in HTML and PHP with CSS to format the pages as those languages are what our group members are most familiar with. 
 
  - For our back end, we are using XAMPP as our PHP development environment. This give us the Apache server functionality to host our project on localhost and visualize project development in real-time. All the back end files are written in php and located in the program_code/back_end folder in our git repository.
 
