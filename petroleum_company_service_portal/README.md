@@ -31,7 +31,7 @@ The group concluded that the presentation layer would consist of a simple welcom
  - For code coverage reports, we are using the PHPunit / Xdebug test suites installed via the Composer dependency manager. These coverage tools allow us to write unit tests for our back end and then automatically generate the coverage results as html reports. XML is used to manage the PHPunit settings in the phpunit.xml file. Command console line to generate HTML code coverage reports for the back end is: 
    - **./vendor/bin/phpunit --coverage-html code_coverage_reports tests**
 
- - Detailed reports can be found in our git repository in the code_coverage_reports folder. 
+   - Detailed reports can be found in our git repository in the code_coverage_reports folder. 
 
 
 **FILE STRUCTURE**
