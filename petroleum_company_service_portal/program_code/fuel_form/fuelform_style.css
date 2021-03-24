@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url(fuelquote.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.header {
+  margin-top: 100px;
+  color: #050f63;
+  transition: all 4s ease-in-out;
+}
+
+.header h2 {
+  font-size: 40px;
+  line-height: 10px;
+  text-shadow: 1px 2px 3px #000000;
+  letter-spacing: 1px;
+}
+
+.form-control {
+  width: 600px;
+  background: white;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  margin-bottom: 16px;
+  box-shadow: 3px 7px 10px #393945;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #050f63;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  transition-duration: 0.7s;
+}
+
+.submit:hover {
+  background-color: #73f589;
+  color: white;
+}
+
+p {
+  border-color: transparent;
+  color: #050f63;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 220px;
+  position: relative;
+  top: -505px;
+  right: 415px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+p2 {
+  border-color: transparent;
+  color: #050f63;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 220px;
+  position: relative;
+  top: -385px;
+  right: 415px;
+  text-shadow: 1px 1px 1px #000000;
+}
